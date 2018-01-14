@@ -6,7 +6,7 @@ var router = express.Router();
 app.use(express.static('server/public'));
 
 app.get('/', function(req, res) {
-    res.sendFile(path.join(__dirname, 'public/views/index.html'));
+    res.sendFile(path.join(__dirname, 'index.html'));
 });
 
 app.listen(port, function() {
