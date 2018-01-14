@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <title>Jaffa Aharonov Portfolio</title>
+        <!-- Angular and Angular-Route -->
+        <script src="vendors/angular.min.js" charset="utf-8"></script>
+        <script src="vendors/angular-route.min.js" charset="utf-8"></script>
+
+        <!-- Angular Material -->
+        <link href="vendors/angular-material.css" rel="stylesheet" type="text/css">
+        <script src="vendors/angular-animate.min.js" charset="utf-8"></script>
+        <script src="vendors/angular-aria.min.js" charset="utf-8"></script>
+        <script src="vendors/angular-messages.min.js" charset="utf-8"></script>
+        <script src="vendors/angular-material.min.js" charset="utf-8"></script>
+
+        <!-- Client Side -->
+        <script src="scripts/client.js" charset="utf-8"></script>
+        <script src="scripts/material.controller.js" charset="utf-8"></script>
+        <script src="/app.js" charset="utf-8"></script>
+        <!-- CSS -->
+        <link href="styles/style.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=News+Cycle" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Mukta+Mahee" rel="stylesheet">
+    </head>
+    <body ng-app="myApp">
+        <header ng-include="'/views/partials/header.html'"></header>
+        <!-- <div ng-include="'views/partials/nav.html'"></div> -->
+        <main ng-view></main>
+    
+    </body>
+</html>
