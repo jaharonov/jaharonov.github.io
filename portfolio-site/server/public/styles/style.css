@@ -1,0 +1,94 @@
+
+h1 {
+font-family: 'News Cycle', sans-serif;
+font-size: 36px;
+
+}
+
+md-tabs {
+   background-color: #baffff;
+} 
+
+/* header {
+    background-color: #ffc400;
+    height: 150px;
+} */
+
+#headtext {
+    padding: 15px;
+    color: darkgray
+}
+
+#self {
+    border-radius: 150% / 150%;
+    height: 200px;
+    width: auto;
+}
+
+header {
+  position: relative;
+  height: 150px;
+  background-color: #ffc400;
+}
+
+/* h1 {
+  padding: 100px 0;
+  font: 44px "Arial";
+  text-align: center;
+}
+
+header h1 {
+  color: white;
+} */
+
+svg {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 10vw;
+  /* set height to pixels if you want angle to change with screen width */
+}
+
+a:link {
+    text-decoration: none;
+    
+}
+a {
+color: #4bcbcc;
+}
+
+.link {
+   font-size:  20px;
+}
+.logo {
+    height: 70px;
+    width: auto;
+    padding: 10px;
+}
+
+li {
+    list-style-type: none;
+}
+
+#linkedin {
+    height: 78px;
+}
+
+md-content {
+    background-color: #eceff1;
+    font-family: 'Mukta Mahee', sans-serif;
+}
+
+body {
+    background-color: #ffc400;
+    
+}
+
+.projects {
+    padding: 20px;
+}
+
+#about {
+    padding-left: 75px;
+    padding-right: 75px;
+}
