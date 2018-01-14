@@ -19,7 +19,7 @@ $mdThemingProvider.theme('default')
 
     $routeProvider
         .when('/landing', {
-            templateUrl: '../public/views/landing.html',
+            templateUrl: 'public/views/landing.html',
             controller: 'MaterialController as mc',
         }).otherwise({
             redirectTo: 'landing'
