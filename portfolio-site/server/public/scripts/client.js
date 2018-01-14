@@ -18,7 +18,7 @@ $mdThemingProvider.theme('default')
     });
 
     $routeProvider
-        .when('landing', {
+        .when('/landing', {
             templateUrl: '/portfolio-site/server/public/views/landing.html',
             controller: 'MaterialController as mc',
         }).otherwise({
